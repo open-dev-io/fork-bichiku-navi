@@ -1,0 +1,33 @@
+._show {
+  display: block;
+}
+
+._hide {
+  display: none
+}
+
+._showTopBtn {
+  visibility: visible;
+}
+
+._hideTopBtn {
+  visibility: hidden;
+}
+
+@media (--md) {
+  ._hideMobile {
+    display: none
+  }
+
+  ._showMobile {
+    display: block;
+  }
+  
+  ._hideMobileTopBtn {
+    visibility: hidden;
+  }
+  
+  ._showMobileTopBtn {
+    visibility: visible;
+  }
+}
